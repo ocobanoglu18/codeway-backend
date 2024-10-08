@@ -50,7 +50,9 @@ DELETE	/config/delete
 # Example: Fetch Configuration
 Delete a configuration settingcurl -H "Authorization: Bearer <ID_TOKEN>" http://localhost:5001/config
 
-# Project Structure
+## Project Structure
+
+```plaintext
 codebackend/
 │
 ├── .env                 # Environment variables (not included in Git)
@@ -62,6 +64,7 @@ codebackend/
     │   └── configController.js  # Logic for handling configuration operations
     └── middlewares/
         └── authMiddleware.js    # Middleware for verifying Firebase ID tokens
+
 
 
 # Technologies Used
