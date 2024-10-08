@@ -50,6 +50,19 @@ DELETE	/config/delete
 # Example: Fetch Configuration
 Delete a configuration settingcurl -H "Authorization: Bearer <ID_TOKEN>" http://localhost:5001/config
 
+# Technologies Used
+Node.js: JavaScript runtime for server-side logic.
+Express.js: Web framework for building RESTful APIs.
+Firebase Admin SDK: Integration with Firebase Authentication and Firestore.
+Firestore: NoSQL database to store and manage configuration data.
+How to Contribute
+Fork this repository.
+Create a new branch for your feature or bug fix.
+Make your changes and test thoroughly.
+Submit a pull request with a clear description of your changes.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## Project Structure
 
 ```plaintext
@@ -67,16 +80,4 @@ codebackend/
 
 
 
-# Technologies Used
-Node.js: JavaScript runtime for server-side logic.
-Express.js: Web framework for building RESTful APIs.
-Firebase Admin SDK: Integration with Firebase Authentication and Firestore.
-Firestore: NoSQL database to store and manage configuration data.
-How to Contribute
-Fork this repository.
-Create a new branch for your feature or bug fix.
-Make your changes and test thoroughly.
-Submit a pull request with a clear description of your changes.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
