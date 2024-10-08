@@ -39,13 +39,16 @@ The backend uses Firebase authentication. To access the secured routes, you need
 Authorization: Bearer <ID_TOKEN>
 
 
-# Routes
-Method	Endpoint	Description
-GET	/	Welcome message from the backend
-GET	/config	Fetch the app configuration
-POST	/config/add	Add a new configuration setting
-POST	/config/update	Update an existing configuration setting
-DELETE	/config/delete	
+## Routes
+
+| Method | Endpoint        | Description                            |
+|--------|-----------------|----------------------------------------|
+| GET    | /               | Welcome message from the backend       |
+| GET    | /config         | Fetch the app configuration            |
+| POST   | /config/add     | Add a new configuration setting        |
+| POST   | /config/update  | Update an existing configuration setting|
+| DELETE | /config/delete  | Delete a configuration setting         |
+
 
 # Example: Fetch Configuration
 Delete a configuration settingcurl -H "Authorization: Bearer <ID_TOKEN>" http://localhost:5001/config
